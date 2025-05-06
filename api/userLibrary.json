@@ -15,7 +15,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/85f48ca59a0bc5bea0e8892459d17905.png"
+    "imageUrl": "/api/assets/220.jpg"
   },
   {
     "appid": 320,
@@ -32,7 +32,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/2b76b793ed032e05c3ef10e1fbed164e.png"
+    "imageUrl": "/api/assets/320.jpg"
   },
   {
     "appid": 360,
@@ -49,7 +49,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/a4e34413f9921c97b9aff7bc14de2d36.png"
+    "imageUrl": "/api/assets/360.jpg"
   },
   {
     "appid": 7600,
@@ -62,7 +62,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1709086741,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/a85a0d80e9317d708da2b465df357d17.png"
+    "imageUrl": "/api/assets/7600.jpg"
   },
   {
     "appid": 400,
@@ -76,7 +76,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/41a69c66f821f25c8184aea3bb35225d.png"
+    "imageUrl": "/api/assets/400.jpg"
   },
   {
     "appid": 12200,
@@ -90,7 +90,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1745303392,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/4b6291c280039eefb1bb0bb9c443e0bb.jpg"
+    "imageUrl": "/api/assets/12200.jpg"
   },
   {
     "appid": 6060,
@@ -103,7 +103,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/aa9ee5a5b1155137461f9e4c7389f038.png"
+    "imageUrl": "/api/assets/6060.jpg"
   },
   {
     "appid": 6030,
@@ -116,7 +116,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1707247183,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/58569a2fed02f8a05ce01756595f0487.png"
+    "imageUrl": "/api/assets/6030.jpg"
   },
   {
     "appid": 20900,
@@ -134,7 +134,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/934eecbf0fdeb931fe26a46728e8d1a1.png"
+    "imageUrl": "/api/assets/20900.jpg"
   },
   {
     "appid": 32440,
@@ -148,7 +148,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1745302560,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/e14dc01aadd6ee3cee4ef338fd966b35.png"
+    "imageUrl": "/api/assets/32440.jpg"
   },
   {
     "appid": 550,
@@ -166,7 +166,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/209cc9ba9f99c6cb5b90d7587ae5c644.png"
+    "imageUrl": "/api/assets/550.jpg"
   },
   {
     "appid": 32430,
@@ -179,7 +179,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/6fcbe11b19a4827c0a8ef7cfc1e33eaf.png"
+    "imageUrl": "/api/assets/32430.jpg"
   },
   {
     "appid": 22370,
@@ -192,7 +192,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/e2283617765a268cd5d2c9cd8f2ccb18.jpg"
+    "imageUrl": "/api/assets/22370.jpg"
   },
   {
     "appid": 32470,
@@ -205,7 +205,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1707242223,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/d08d5343774bbb48609d43f22d57ac66.png"
+    "imageUrl": "/api/assets/32470.jpg"
   },
   {
     "appid": 32510,
@@ -218,7 +218,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1730744771,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/8e1a34fb2a04d0abe810f423b25ca00b.png"
+    "imageUrl": "/api/assets/32510.jpg"
   },
   {
     "appid": 105600,
@@ -232,7 +232,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/9ef7f9b81c2532880cfe5cf53f0c906d.png"
+    "imageUrl": "/api/assets/105600.jpg"
   },
   {
     "appid": 20920,
@@ -252,7 +252,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/df5042d2f18eae9df7a0d41857d87627.png"
+    "imageUrl": "/api/assets/20920.jpg"
   },
   {
     "appid": 21010,
@@ -265,7 +265,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/8027c6a6033396fac43849c2f8e58f25.png"
+    "imageUrl": "/api/assets/21010.jpg"
   },
   {
     "appid": 21030,
@@ -278,7 +278,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/9ed5795655188dba58400ac4359e2f43.png"
+    "imageUrl": "/api/assets/21030.jpg"
   },
   {
     "appid": 22380,
@@ -292,7 +292,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/0088f68f9e771f24b774dce80886fc25.png"
+    "imageUrl": "/api/assets/22380.jpg"
   },
   {
     "appid": 227300,
@@ -306,7 +306,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/712e8661e581419d7186708b7be47a33.png"
+    "imageUrl": "/api/assets/227300.jpg"
   },
   {
     "appid": 203290,
@@ -320,7 +320,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1459784112,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/f9f3b6f06f64e267bf77fb31f3bdc792.png"
+    "imageUrl": "/api/assets/203290.jpg"
   },
   {
     "appid": 211500,
@@ -333,7 +333,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/937ae010840679f1d5b1d822452389bd.png"
+    "imageUrl": "/api/assets/211500.jpg"
   },
   {
     "appid": 230410,
@@ -351,7 +351,7 @@
       5
     ],
     "playtime_disconnected": 807,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/4e2a3c5332c92654090b105e3723479f.png"
+    "imageUrl": "/api/assets/230410.jpg"
   },
   {
     "appid": 236390,
@@ -365,7 +365,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/5f82fdf76a0ac0959b3c8327b1f63212.png"
+    "imageUrl": "/api/assets/236390.jpg"
   },
   {
     "appid": 223750,
@@ -378,7 +378,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/9e490bdd1469c4234f56c3bb29605463.png"
+    "imageUrl": "/api/assets/223750.jpg"
   },
   {
     "appid": 220200,
@@ -391,7 +391,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1743034565,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/d966047fa6e8c33cc50fc0d7ac981266.png"
+    "imageUrl": "/api/assets/220200.jpg"
   },
   {
     "appid": 242760,
@@ -409,7 +409,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/f03c1b76769ba6af93c93e1247defc35.png"
+    "imageUrl": "/api/assets/242760.jpg"
   },
   {
     "appid": 244210,
@@ -423,7 +423,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1728090127,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/542c851650c2c1962d8c852785477ae4.png"
+    "imageUrl": "/api/assets/244210.jpg"
   },
   {
     "appid": 218620,
@@ -437,7 +437,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1696757543,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/b6ffd72032f8c85e70fce6c2833f93d0.png"
+    "imageUrl": "/api/assets/218620.jpg"
   },
   {
     "appid": 107410,
@@ -456,7 +456,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/930115bcc4ac4aa36f6efd7a90257f0e.png"
+    "imageUrl": "/api/assets/107410.jpg"
   },
   {
     "appid": 265930,
@@ -471,7 +471,7 @@
     "rtime_last_played": 1739583725,
     "has_leaderboards": true,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/3d2ac0298c4437c1506ab5c9cdbf643a.png"
+    "imageUrl": "/api/assets/265930.jpg"
   },
   {
     "appid": 201810,
@@ -491,7 +491,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/1c183ec2bf2e0b7cb725c5d2127d250b.png"
+    "imageUrl": "/api/assets/201810.jpg"
   },
   {
     "appid": 243470,
@@ -508,7 +508,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/df827da31d664707840bc6c221f22d72.png"
+    "imageUrl": "/api/assets/243470.jpg"
   },
   {
     "appid": 291480,
@@ -526,7 +526,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/cb2363691a8351ee799c9108229c75b4.png"
+    "imageUrl": "/api/assets/291480.jpg"
   },
   {
     "appid": 314160,
@@ -539,7 +539,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1729628183,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/5e2ecd73f76a6debd478d9517b27e1f1.png"
+    "imageUrl": "/api/assets/314160.jpg"
   },
   {
     "appid": 261640,
@@ -553,7 +553,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/e14cb0a1d3dd1c64ff909b79eaef7f68.png"
+    "imageUrl": "/api/assets/261640.jpg"
   },
   {
     "appid": 348250,
@@ -566,7 +566,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1726549102,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/1bb3bb87bb980af0507e4e180ea285ee.png"
+    "imageUrl": "/api/assets/348250.jpg"
   },
   {
     "appid": 255710,
@@ -580,7 +580,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1743718155,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/913f5bf763c8f0e93c9f8dd63ff3782c.png"
+    "imageUrl": "/api/assets/255710.jpg"
   },
   {
     "appid": 365960,
@@ -594,7 +594,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/ca12415599719344f212452134a5e4a9.png"
+    "imageUrl": "/api/assets/365960.jpg"
   },
   {
     "appid": 292030,
@@ -612,7 +612,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/4904f82c12cecf6ec070fe77d7e913ce.png"
+    "imageUrl": "/api/assets/292030.jpg"
   },
   {
     "appid": 380600,
@@ -626,7 +626,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/63773ad7392fbd21919e63e555b62c61.jpg"
+    "imageUrl": "/api/assets/380600.jpg"
   },
   {
     "appid": 381940,
@@ -639,7 +639,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1726542741,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/b9551266e38ac745fdcc24e69da4145d.png"
+    "imageUrl": "/api/assets/381940.jpg"
   },
   {
     "appid": 383870,
@@ -657,7 +657,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/aa9264d85b7225106a396c7816efc645.png"
+    "imageUrl": "/api/assets/383870.jpg"
   },
   {
     "appid": 397540,
@@ -676,7 +676,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/dd7228fec1c010f8ec43dbcca5af4086.jpg"
+    "imageUrl": "/api/assets/397540.jpg"
   },
   {
     "appid": 413150,
@@ -690,7 +690,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1730705880,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/992fbfcd780c3f522308d44f1b13ee19.png"
+    "imageUrl": "/api/assets/413150.jpg"
   },
   {
     "appid": 431960,
@@ -704,7 +704,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1630544955,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/debf48b09b591ef018c9d51f90a2a4d3.png"
+    "imageUrl": "/api/assets/431960.jpg"
   },
   {
     "appid": 434110,
@@ -718,7 +718,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1459790459,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/9aa1085ec1be7cfc32feddf4e9b726e7.png"
+    "imageUrl": "/api/assets/434110.jpg"
   },
   {
     "appid": 437400,
@@ -731,7 +731,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/55f1910b1a8ab44cd03d121c87d44417.png"
+    "imageUrl": "/api/assets/437400.jpg"
   },
   {
     "appid": 275850,
@@ -745,7 +745,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1745105052,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/c8d77146931324f4001237a93fe4ba8c.png"
+    "imageUrl": "/api/assets/275850.jpg"
   },
   {
     "appid": 493490,
@@ -759,7 +759,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/46f393f20d1b29b85b950960c10e8b4b.png"
+    "imageUrl": "/api/assets/493490.jpg"
   },
   {
     "appid": 512270,
@@ -772,7 +772,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1726635691,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/cd46a0224c83d17b825ebc226df3479c.png"
+    "imageUrl": "/api/assets/512270.jpg"
   },
   {
     "appid": 518790,
@@ -786,7 +786,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/771ebd2bc6c27b36d00995d5f1e332ac.png"
+    "imageUrl": "/api/assets/518790.jpg"
   },
   {
     "appid": 289070,
@@ -800,7 +800,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1711054784,
     "playtime_disconnected": 1,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/7ce9d67d85410c4531d26ee12e9640d2.png"
+    "imageUrl": "/api/assets/289070.jpg"
   },
   {
     "appid": 546560,
@@ -818,7 +818,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/980c9d1c2752a29a8cdc5669b9e22e6f.png"
+    "imageUrl": "/api/assets/546560.jpg"
   },
   {
     "appid": 550650,
@@ -836,7 +836,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/c747553660f730128afb69dab3c83d5b.jpg"
+    "imageUrl": "/api/assets/550650.jpg"
   },
   {
     "appid": 493340,
@@ -850,7 +850,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1735721777,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/2a59e6daa5e6c9bdba85b53586872204.png"
+    "imageUrl": "/api/assets/493340.jpg"
   },
   {
     "appid": 553850,
@@ -868,7 +868,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/0e3900565e35576ba54faf1c53093932.png"
+    "imageUrl": "/api/assets/553850.jpg"
   },
   {
     "appid": 8500,
@@ -881,7 +881,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/620bde855d806c199c826760aa4dc009.png"
+    "imageUrl": "/api/assets/8500.jpg"
   },
   {
     "appid": 612880,
@@ -900,7 +900,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/fab68d941875c19041a374166a67a8eb.jpg"
+    "imageUrl": "/api/assets/612880.jpg"
   },
   {
     "appid": 617830,
@@ -914,7 +914,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/3b0b83ee5486b6edf644157883ec7fd2.png"
+    "imageUrl": "/api/assets/617830.jpg"
   },
   {
     "appid": 629730,
@@ -931,7 +931,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/c6d9c66cd627668b3b3bd557a0af8405.jpg"
+    "imageUrl": "/api/assets/629730.jpg"
   },
   {
     "appid": 632470,
@@ -948,7 +948,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/e17233dc1c4e3457d5a259c06c7eb502.jpg"
+    "imageUrl": "/api/assets/632470.jpg"
   },
   {
     "appid": 377160,
@@ -962,7 +962,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1713478873,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/2d92b989deeb771206e2f924073f81cd.png"
+    "imageUrl": "/api/assets/377160.jpg"
   },
   {
     "appid": 736590,
@@ -975,7 +975,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1707513151,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/5c65988bfed240b0a6750fc65f42b8e5.jpg"
+    "imageUrl": "/api/assets/736590.jpg"
   },
   {
     "appid": 837380,
@@ -988,7 +988,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1726571494,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/5bbb6ec0b7b3769e2fba248e5bbe60b5.png"
+    "imageUrl": "/api/assets/837380.jpg"
   },
   {
     "appid": 730,
@@ -1006,7 +1006,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/0662aa1719017e0efa5fa8daf0880c6e.png"
+    "imageUrl": "/api/assets/730.jpg"
   },
   {
     "appid": 35140,
@@ -1020,7 +1020,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1743233935,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/55f6a90e85b282a0798ba2f8321dbe6a.jpg"
+    "imageUrl": "/api/assets/35140.jpg"
   },
   {
     "appid": 200260,
@@ -1034,7 +1034,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/3423734808e5824a84f21f2a6f19a380.jpg"
+    "imageUrl": "/api/assets/200260.jpg"
   },
   {
     "appid": 208650,
@@ -1048,7 +1048,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/cd49ba01d74a18046846441c51995120.jpg"
+    "imageUrl": "/api/assets/208650.jpg"
   },
   {
     "appid": 690790,
@@ -1062,7 +1062,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/f01f46569df625d470fa45484b105ffd.png"
+    "imageUrl": "/api/assets/690790.jpg"
   },
   {
     "appid": 1051200,
@@ -1079,7 +1079,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/48cc6a9f8001fceb808743bb8684fd70.png"
+    "imageUrl": "/api/assets/1051200.jpg"
   },
   {
     "appid": 1144200,
@@ -1098,7 +1098,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/590ce51fb614aada19630d6b8fc2ffb3.png"
+    "imageUrl": "/api/assets/1144200.jpg"
   },
   {
     "appid": 1085660,
@@ -1112,7 +1112,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/5e93ee9a764cf2326a92f61f8fefdb1f.png"
+    "imageUrl": "/api/assets/1085660.jpg"
   },
   {
     "appid": 1172470,
@@ -1126,7 +1126,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/0d7a3aef18b1eb97e70a5148e2a2646f.jpg"
+    "imageUrl": "/api/assets/1172470.jpg"
   },
   {
     "appid": 1172380,
@@ -1140,7 +1140,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/669aee218851553304392c2497857c4d.png"
+    "imageUrl": "/api/assets/1172380.jpg"
   },
   {
     "appid": 1174180,
@@ -1157,7 +1157,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/3940304b536796dcc176aa83203a3955.png"
+    "imageUrl": "/api/assets/1174180.jpg"
   },
   {
     "appid": 359550,
@@ -1170,7 +1170,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/c32d0e02132a853fdf5b8010aa71602e.png"
+    "imageUrl": "/api/assets/359550.jpg"
   },
   {
     "appid": 623990,
@@ -1183,7 +1183,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/0c1ac221790f9286108317563d5a6c1a.png"
+    "imageUrl": "/api/assets/623990.jpg"
   },
   {
     "appid": 1238000,
@@ -1201,7 +1201,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/07f4dafbc9293fa6c555be969dacf4ef.png"
+    "imageUrl": "/api/assets/1238000.jpg"
   },
   {
     "appid": 1238840,
@@ -1219,7 +1219,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/5f2cec9d7c7078209559b2838b427b2f.png"
+    "imageUrl": "/api/assets/1238840.jpg"
   },
   {
     "appid": 1237950,
@@ -1233,7 +1233,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/2ca41752ccf4dbdb76d8fe88c488fd44.png"
+    "imageUrl": "/api/assets/1237950.jpg"
   },
   {
     "appid": 12210,
@@ -1247,7 +1247,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1739578570,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/a32bc8141e168ff20fdfe3f0fbc72155.png"
+    "imageUrl": "/api/assets/12210.jpg"
   },
   {
     "appid": 1286830,
@@ -1261,7 +1261,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/0773eb1cf05d856e1880856f98d5a1f5.png"
+    "imageUrl": "/api/assets/1286830.jpg"
   },
   {
     "appid": 1151340,
@@ -1279,7 +1279,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/7f5854dacff299ca986c7b217eca94d9.png"
+    "imageUrl": "/api/assets/1151340.jpg"
   },
   {
     "appid": 431240,
@@ -1293,7 +1293,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1740888531,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/44d37f9019983d92ead37f855133415b.png"
+    "imageUrl": "/api/assets/431240.jpg"
   },
   {
     "appid": 1408230,
@@ -1306,7 +1306,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/ebb4c3b8905a26324c1cb70796c84b88.png"
+    "imageUrl": "/api/assets/1408230.jpg"
   },
   {
     "appid": 1238810,
@@ -1324,12 +1324,12 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/6d44d555d66bef025eb4c4f3b0355fc6.png"
+    "imageUrl": "/api/assets/1238810.jpg"
   },
   {
     "appid": 1293830,
     "name": "Forza Horizon 4",
-    "playtime_2weeks": 162,
+    "playtime_2weeks": 142,
     "playtime_forever": 312,
     "img_icon_url": "7c993f9089d54fe2767efec47b75a7009cdd632e",
     "has_community_visible_stats": true,
@@ -1339,7 +1339,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1745475313,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/ab704bd383ad12c1e7f6bcaa0da165b0.png"
+    "imageUrl": "/api/assets/1293830.jpg"
   },
   {
     "appid": 330830,
@@ -1358,7 +1358,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/a80632d4b61a618a06af232a2058cc6b.png"
+    "imageUrl": "/api/assets/330830.jpg"
   },
   {
     "appid": 1557040,
@@ -1372,7 +1372,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/a6902532ac0cf8300981d6b5ad69d03b.jpg"
+    "imageUrl": "/api/assets/1557040.jpg"
   },
   {
     "appid": 1029550,
@@ -1386,7 +1386,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/16d2ea08d5d8256bf122a90b80c37825.png"
+    "imageUrl": "/api/assets/1029550.jpg"
   },
   {
     "appid": 1665460,
@@ -1399,7 +1399,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/f8080a0a783ed856ee0bae2504e4d0a9.png"
+    "imageUrl": "/api/assets/1665460.jpg"
   },
   {
     "appid": 1715130,
@@ -1417,7 +1417,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/c22ebae3205aa7aaac13ef755677263e.png"
+    "imageUrl": "/api/assets/1715130.jpg"
   },
   {
     "appid": 1240440,
@@ -1431,7 +1431,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/5e6f4ecb84c2cef4254267d8479a3fb4.png"
+    "imageUrl": "/api/assets/1240440.jpg"
   },
   {
     "appid": 1782210,
@@ -1447,7 +1447,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/3dd2b1e105c4da7735384dfca5522500.png"
+    "imageUrl": "/api/assets/1782210.jpg"
   },
   {
     "appid": 241930,
@@ -1461,7 +1461,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/7fee21a5a2378a1f76db9d1757346e6e.png"
+    "imageUrl": "/api/assets/241930.jpg"
   },
   {
     "appid": 356190,
@@ -1479,7 +1479,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/c2a96e701e29d4ee54e891ff50a200de.png"
+    "imageUrl": "/api/assets/356190.jpg"
   },
   {
     "appid": 578080,
@@ -1497,7 +1497,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/13816ba0dd3a36209cbc3cfef265dc7c.png"
+    "imageUrl": "/api/assets/578080.jpg"
   },
   {
     "appid": 1898290,
@@ -1511,7 +1511,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1738831954,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/b557267c79ac3369e1721533a8bf12de.png"
+    "imageUrl": "/api/assets/1898290.jpg"
   },
   {
     "appid": 1902490,
@@ -1524,7 +1524,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/9483382ac31ef93789fe8f356f5b93ff.png"
+    "imageUrl": "/api/assets/1902490.jpg"
   },
   {
     "appid": 2012840,
@@ -1538,7 +1538,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/5abf39785eb2a4a2315c690c11078344.png"
+    "imageUrl": "/api/assets/2012840.jpg"
   },
   {
     "appid": 346110,
@@ -1552,7 +1552,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/2fb88ee97a699cbd93cb7f3859951f69.png"
+    "imageUrl": "/api/assets/346110.jpg"
   },
   {
     "appid": 407530,
@@ -1565,7 +1565,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/df3f5bc6f8359d51858bb8ffeb11fe98.png"
+    "imageUrl": "/api/assets/407530.jpg"
   },
   {
     "appid": 2073850,
@@ -1579,7 +1579,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/c60c376ba094eddcb2178971e2166b8d.png"
+    "imageUrl": "/api/assets/2073850.jpg"
   },
   {
     "appid": 2074920,
@@ -1597,7 +1597,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/8b26adcf1aad698efe2d2bd030e96f22.png"
+    "imageUrl": "/api/assets/2074920.jpg"
   },
   {
     "appid": 2096600,
@@ -1615,7 +1615,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/9117a47742d87b8929f47eac8bc12924.png"
+    "imageUrl": "/api/assets/2096600.jpg"
   },
   {
     "appid": 2096610,
@@ -1633,7 +1633,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/d4dc1731bec86517f31cd5fc2f38c559.png"
+    "imageUrl": "/api/assets/2096610.jpg"
   },
   {
     "appid": 1454970,
@@ -1652,7 +1652,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/3bae06e258f7254732ef37fed97aa59a.png"
+    "imageUrl": "/api/assets/1454970.jpg"
   },
   {
     "appid": 2139460,
@@ -1665,7 +1665,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/a3dcdf1c7bee4cba5afabb54b5fd3d98.png"
+    "imageUrl": "/api/assets/2139460.jpg"
   },
   {
     "appid": 1222670,
@@ -1678,7 +1678,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1719737457,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/aeb677b971d71e2c19ebd36fdbd839e9.png"
+    "imageUrl": "/api/assets/1222670.jpg"
   },
   {
     "appid": 920210,
@@ -1692,7 +1692,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1722321875,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/077badd2adc72d657dc5917564b0c028.jpg"
+    "imageUrl": "/api/assets/920210.jpg"
   },
   {
     "appid": 2198150,
@@ -1705,7 +1705,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1735864470,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/99ba06ecd807444ca6338a273152cd1a.jpg"
+    "imageUrl": "/api/assets/2198150.jpg"
   },
   {
     "appid": 2225070,
@@ -1718,7 +1718,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/e79acf85134877fde07685408a1a4d63.png"
+    "imageUrl": "/api/assets/2225070.jpg"
   },
   {
     "appid": 2231380,
@@ -1736,7 +1736,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/f946dcfdaedc530c9f02ac792309566d.png"
+    "imageUrl": "/api/assets/2231380.jpg"
   },
   {
     "appid": 2328760,
@@ -1750,7 +1750,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/47559ded572344db9e94111ecef6589b.jpg"
+    "imageUrl": "/api/assets/2328760.jpg"
   },
   {
     "appid": 2357570,
@@ -1764,7 +1764,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/f8013fd6d898ca4374d8113f0939c70c.png"
+    "imageUrl": "/api/assets/2357570.jpg"
   },
   {
     "appid": 2381620,
@@ -1778,7 +1778,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1718317030,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/6d406fadd95fb4b5203b3934ca445a79.png"
+    "imageUrl": "/api/assets/2381620.jpg"
   },
   {
     "appid": 2488620,
@@ -1792,7 +1792,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1739584366,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/865e35b2bed84edd9f237987d883cec1.png"
+    "imageUrl": "/api/assets/2488620.jpg"
   },
   {
     "appid": 2507950,
@@ -1806,7 +1806,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/375193c2f1a362493e41fee231293909.jpg"
+    "imageUrl": "/api/assets/2507950.jpg"
   },
   {
     "appid": 8980,
@@ -1820,7 +1820,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/3bee85ac5d60c54d2a92f67e0814422f.jpg"
+    "imageUrl": "/api/assets/8980.jpg"
   },
   {
     "appid": 729040,
@@ -1839,7 +1839,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/f8e310a5f495f67a2a7c1d283a9e0b7b.png"
+    "imageUrl": "/api/assets/729040.jpg"
   },
   {
     "appid": 49520,
@@ -1853,7 +1853,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 0,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/2ec9e6730c4ad52a6a19e40e7bd1417e.png"
+    "imageUrl": "/api/assets/49520.jpg"
   },
   {
     "appid": 2580190,
@@ -1866,7 +1866,7 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1738325755,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/a41f331ffa41bebfbb5f1a2fb2c24574.png"
+    "imageUrl": "/api/assets/2580190.jpg"
   },
   {
     "appid": 1659040,
@@ -1884,7 +1884,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/197127ec04c2fb925eae46ff54a5b5c2.png"
+    "imageUrl": "/api/assets/1659040.jpg"
   },
   {
     "appid": 383180,
@@ -1902,7 +1902,7 @@
       5
     ],
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/d7cfb31208898765facda162b01bda92.png"
+    "imageUrl": "/api/assets/383180.jpg"
   },
   {
     "appid": 3107330,
@@ -1916,6 +1916,6 @@
     "playtime_deck_forever": 0,
     "rtime_last_played": 1735721322,
     "playtime_disconnected": 0,
-    "imageUrl": "https://cdn2.steamgriddb.com/grid/408563c171f55dda7853e7bc1a31fb8b.png"
+    "imageUrl": "/api/assets/3107330.jpg"
   }
 ]

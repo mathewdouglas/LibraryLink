@@ -41,6 +41,19 @@
         white-space: nowrap;
         overflow: hidden;
     }
+    .spinner {
+        border: 4px solid #f3f3f3; /* Light grey */
+        border-top: 4px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
     </style>
 </head>
 <body>
@@ -67,6 +80,9 @@
         <button id="syncButton" onclick="syncLibrary();" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
             Sync Library
         </button>
+        <div id="loadingSpinner" style="display: none; text-align: center; margin-top: 20px;">
+            <div class="spinner"></div>
+        </div>
     </div>
 
     <div class="game-container" id="game-container">
@@ -101,15 +117,21 @@
             }
         }
 
-        // Function to sync the library using the Steam ID
         async function syncLibrary() {
             if (!steamId) {
                 alert('Please set your Steam ID first.');
                 return;
             }
 
+            const loadingSpinner = document.getElementById('loadingSpinner');
+            loadingSpinner.style.display = 'block'; // Show the spinner
+
             try {
                 const response = await fetch(`http://localhost:3000/api/syncLibrary?steamid=${steamId}`);
+                const responseBody = await response.text(); // Get the response body as text
+                console.log('Response status:', response.status); // Log the response status for debugging
+                console.log('Response from server:', responseBody); // Log the response for debugging
+
                 if (response.ok) {
                     alert('Library synced successfully!');
                     loadLibrary(); // Reload the library after syncing
@@ -119,38 +141,43 @@
             } catch (error) {
                 console.error('Error syncing library:', error);
                 alert('An error occurred while syncing the library.');
+            } finally {
+                loadingSpinner.style.display = 'none'; // Hide the spinner
             }
         }
-
         // Updated loadLibrary function to handle async createGameCard
-async function loadLibrary() {
-    const gameContainer = document.getElementById('game-container');
-    gameContainer.innerHTML = ''; // Clear the container
+        async function loadLibrary() {
+            const gameContainer = document.getElementById('game-container');
+            gameContainer.innerHTML = ''; // Clear the container
 
-    try {
-        const response = await fetch('userLibrary.json');
-        if (response.ok) {
-            const games = await response.json();
+            try {
+                const response = await fetch('api/userLibrary.json');
+                if (response.ok) {
+                    const games = await response.json();
 
-            if (games.length > 0) {
-                // Sort games by title
-                const sortedGames = sortGamesByTitle(games);
-
-                for (const game of sortedGames) {
-                    const gameCard = await createGameCard(game); // Await the async function
-                    gameContainer.appendChild(gameCard);
+                    if (games.length > 0) {
+                        const sortedGames = games.sort((a, b) => a.name.localeCompare(b.name));
+                        for (const game of sortedGames) {
+                            const gameCard = document.createElement('div');
+                            gameCard.classList.add('game-card');
+                            gameCard.innerHTML = `
+                                <img src="${game.imageUrl}" alt="${game.name}">
+                                <h3>${game.name}</h3>
+                            `;
+                            gameContainer.appendChild(gameCard);
+                        }
+                    } else {
+                        gameContainer.innerHTML = '<p style="text-align: center;">No games found in the library.</p>';
+                    }
+                } else {
+                    console.log('Failed to fetch user library:', response.statusText);
+                    gameContainer.innerHTML = '<p style="text-align: center;">Library file not found. Please sync your library.</p>';
                 }
-            } else {
-                gameContainer.innerHTML = '<p style="text-align: center;">No games found in the library.</p>';
+            } catch (error) {
+                console.log('Error loading library:', error);
+                gameContainer.innerHTML = '<p style="text-align: center;">An error occurred while loading the library.</p>';
             }
-        } else {
-            gameContainer.innerHTML = '<p style="text-align: center;">Library file not found. Please sync your library.</p>';
         }
-    } catch (error) {
-        console.error('Error loading library:', error);
-        gameContainer.innerHTML = '<p style="text-align: center;">An error occurred while loading the library.</p>';
-    }
-}
 
         // Function to sort games by title
         function sortGamesByTitle(games) {
@@ -166,7 +193,7 @@ async function loadLibrary() {
             const card = document.createElement('div');
             card.classList.add('game-card');
             
-            const imgUrl = gameData.imageUrl || 'https://via.placeholder.com/600x900?text=No+Image'; // Placeholder image if none is provided
+            const imgUrl = gameData.imageUrl || 'https://placehold.co/600x900'; // Placeholder image if none is provided
             const gameName = gameData.name || 'Unknown Game';
 
             card.innerHTML = `

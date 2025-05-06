@@ -2,6 +2,10 @@ const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
 require('dotenv').config();
+const path = require('path');
+const { pipeline } = require('stream');
+const { promisify } = require('util');
+const streamPipeline = promisify(pipeline);
 
 const app = express();
 const port = 3000;
@@ -9,7 +13,7 @@ const port = 3000;
 const apiKey = process.env.STEAM_API_KEY; // Load API key from .env file
 const steamGridDbApiKey = process.env.STEAMGRIDDB_API_KEY;
 const steamId = '76561198213788939'; // Replace with the user's Steam ID
-const outputFilePath = './userLibrary.json'; // Path to the JSON file
+const outputFilePath = './api/userLibrary.json'; // Path to the JSON file
 
 app.use(cors());
 
@@ -34,19 +38,47 @@ app.listen(port, () => {
 
 app.get('/api/syncLibrary', async (req, res) => {
     const url = `https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=${apiKey}&steamid=${steamId}&include_appinfo=true&include_played_free_games=true`;
+    const assetsDir = path.join(__dirname, 'assets');
+
+    console.log('Fetching user library from Steam API:', url); // Log the URL for debugging
 
     try {
         const response = await fetch(url);
         const data = await response.json();
 
+        console.log('Response from Steam API:', response , data); // Log the response for debugging
+
         if (data && data.response && data.response.games) {
             const games = data.response.games;
 
-            // Fetch image URLs for each game
+            // Ensure the assets directory exists
+            if (!fs.existsSync(assetsDir)) {
+                fs.mkdirSync(assetsDir, { recursive: true });
+            }
+
+            // Fetch and save images for each game
             for (const game of games) {
                 const appId = game.appid;
-                const imageUrl = await fetchGameImageUrl(appId); // Fetch the image URL
-                game.imageUrl = imageUrl; // Add the image URL to the game object
+                const localImagePath = path.join(assetsDir, `${appId}.jpg`);
+                const localImageUrl = `/api/assets/${appId}.jpg`;
+
+                // Try downloading the image from Steam's CDN
+                const steamImageUrl = `https://cdn.cloudflare.steamstatic.com/steam/apps/${appId}/library_600x900.jpg`;
+                let imageDownloaded = await downloadImage(steamImageUrl, localImagePath);
+
+                if (!imageDownloaded) {
+                    // If Steam's image fails, download from SteamGridDB
+                    const steamGridDbImageUrl = await fetchGameImageUrl(appId);
+                    imageDownloaded = await downloadImage(steamGridDbImageUrl, localImagePath);
+
+                    if (!imageDownloaded) {
+                        console.error(`Failed to download fallback image for App ID ${appId}`);
+                        continue; // Skip this game if both downloads fail
+                    }
+                }
+
+                // Store the local image URL in the game object
+                game.imageUrl = localImageUrl;
             }
 
             // Save the updated game library to a JSON file
@@ -62,6 +94,24 @@ app.get('/api/syncLibrary', async (req, res) => {
         res.status(500).send('Error fetching user library');
     }
 });
+
+async function downloadImage(url, filePath) {
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            console.error(`Failed to download image from ${url}: ${response.statusText}`);
+            return false;
+        }
+
+        // Stream the response body to the file
+        await streamPipeline(response.body, fs.createWriteStream(filePath));
+        console.log(`Image saved to ${filePath}`);
+        return true;
+    } catch (error) {
+        console.error(`Error downloading image from ${url}:`, error);
+        return false;
+    }
+}
 
 // Helper function to fetch the image URL from SteamGridDB
 async function fetchGameImageUrl(appId) {
@@ -79,15 +129,15 @@ async function fetchGameImageUrl(appId) {
                 return data.data[0].url; // Return the first available image URL
             } else {
                 console.error(`No image found for App ID ${appId}`);
-                return 'https://via.placeholder.com/600x900?text=No+Image'; // Fallback image
+                return 'https://placehold.co/600x900'; // Fallback image
             }
         } else {
             console.error(`Error fetching image for App ID ${appId}:`, response.status);
-            return 'https://via.placeholder.com/600x900?text=No+Image'; // Fallback image
+            return 'https://placehold.co/600x900'; // Fallback image
         }
     } catch (error) {
         console.error(`Error fetching image for App ID ${appId}:`, error);
-        return 'https://via.placeholder.com/600x900?text=No+Image'; // Fallback image
+        return 'https://placehold.co/600x900'; // Fallback image
     }
 }
 
