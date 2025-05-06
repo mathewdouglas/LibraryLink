@@ -37,16 +37,37 @@ app.listen(port, () => {
 
 
 app.get('/api/syncLibrary', async (req, res) => {
+    const steamId = req.query.steamid;
+    if (!steamId) {
+        return res.status(400).send('Steam ID is required');
+    }
+
+    console.log('Syncing library for Steam ID:', steamId);
+
+    try {
+        const result = await syncLibraryHelper(steamId); // Wait for the helper function to complete
+        if (result.success) {
+            res.status(200).send(result.message);
+        } else {
+            res.status(500).send(result.message);
+        }
+    } catch (error) {
+        console.error('Unexpected error in /api/syncLibrary:', error);
+        res.status(500).send('Unexpected error occurred while syncing library');
+    }
+});
+
+async function syncLibraryHelper(steamId) {
     const url = `https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=${apiKey}&steamid=${steamId}&include_appinfo=true&include_played_free_games=true`;
     const assetsDir = path.join(__dirname, 'assets');
 
-    console.log('Fetching user library from Steam API:', url); // Log the URL for debugging
+    console.log('Fetching user library from Steam API:', url);
 
     try {
         const response = await fetch(url);
         const data = await response.json();
 
-        console.log('Response from Steam API:', response , data); // Log the response for debugging
+        console.log('Response from Steam API:', data);
 
         if (data && data.response && data.response.games) {
             const games = data.response.games;
@@ -72,7 +93,7 @@ app.get('/api/syncLibrary', async (req, res) => {
                     imageDownloaded = await downloadImage(steamGridDbImageUrl, localImagePath);
 
                     if (!imageDownloaded) {
-                        console.error(`Failed to download fallback image for App ID ${appId}`);
+                        console.log(`Failed to download fallback image for App ID ${appId}`);
                         continue; // Skip this game if both downloads fail
                     }
                 }
@@ -84,31 +105,31 @@ app.get('/api/syncLibrary', async (req, res) => {
             // Save the updated game library to a JSON file
             fs.writeFileSync(outputFilePath, JSON.stringify(games, null, 2), 'utf-8');
             console.log(`User library saved to ${outputFilePath}`);
-            res.status(200).send('User library synced successfully');
+            return { success: true, message: 'User library synced successfully' };
         } else {
             console.error('No games found or invalid response:', data);
-            res.status(500).send('No games found or invalid response');
+            return { success: false, message: 'No games found or invalid response' };
         }
     } catch (error) {
-        console.error('Error fetching user library:', error);
-        res.status(500).send('Error fetching user library');
+        console.error('Error syncing library:', error);
+        return { success: false, message: `Error syncing library` };
     }
-});
+}
 
 async function downloadImage(url, filePath) {
     try {
         const response = await fetch(url);
         if (!response.ok) {
-            console.error(`Failed to download image from ${url}: ${response.statusText}`);
+            console.log(`Failed to download image from ${url}: ${response.statusText}`);
             return false;
         }
 
         // Stream the response body to the file
         await streamPipeline(response.body, fs.createWriteStream(filePath));
-        console.log(`Image saved to ${filePath}`);
+        // console.log(`Image saved to ${filePath}`);
         return true;
     } catch (error) {
-        console.error(`Error downloading image from ${url}:`, error);
+        console.log(`Error downloading image from ${url}:`, error);
         return false;
     }
 }

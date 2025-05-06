@@ -134,17 +134,19 @@
 
                 if (response.ok) {
                     alert('Library synced successfully!');
-                    loadLibrary(); // Reload the library after syncing
+                    await loadLibrary(); // Reload the library after syncing
                 } else {
-                    alert('Failed to sync library. Please check the server logs.');
+                    console.error('Sync failed:', responseBody);
+                    alert(`Failed to sync library: ${responseBody}`);
                 }
             } catch (error) {
                 console.error('Error syncing library:', error);
-                alert('An error occurred while syncing the library.');
+                // alert('An error occurred while syncing the library.');
             } finally {
                 loadingSpinner.style.display = 'none'; // Hide the spinner
             }
         }
+
         // Updated loadLibrary function to handle async createGameCard
         async function loadLibrary() {
             const gameContainer = document.getElementById('game-container');

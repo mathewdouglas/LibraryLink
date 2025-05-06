@@ -81,7 +81,6 @@
   {
     "appid": 12200,
     "name": "Bully: Scholarship Edition",
-    "playtime_2weeks": 11,
     "playtime_forever": 11,
     "img_icon_url": "791f13dd4ea6c4cdf171670cc576682171c1eae5",
     "playtime_windows_forever": 11,
@@ -139,7 +138,6 @@
   {
     "appid": 32440,
     "name": "LEGO® Star Wars™: The Complete Saga",
-    "playtime_2weeks": 3,
     "playtime_forever": 25,
     "img_icon_url": "096307d4ae0decd6a331e381f8dd464d75e3d9d6",
     "playtime_windows_forever": 25,
@@ -600,7 +598,7 @@
     "appid": 292030,
     "name": "The Witcher 3: Wild Hunt",
     "playtime_forever": 0,
-    "img_icon_url": "6e43cb881e60712c3cccdd7f871baa56acf15328",
+    "img_icon_url": "78d0ff98b67851f24539cdf2402cf147679134f4",
     "has_community_visible_stats": true,
     "playtime_windows_forever": 0,
     "playtime_mac_forever": 0,
@@ -1329,7 +1327,7 @@
   {
     "appid": 1293830,
     "name": "Forza Horizon 4",
-    "playtime_2weeks": 142,
+    "playtime_2weeks": 104,
     "playtime_forever": 312,
     "img_icon_url": "7c993f9089d54fe2767efec47b75a7009cdd632e",
     "has_community_visible_stats": true,
