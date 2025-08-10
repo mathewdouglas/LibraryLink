@@ -60,6 +60,9 @@
 
     <h1>Games Library</h1>
 
+    <input id="gameSearch" placeholder="Search for a game..." style="text-align: left; margin-bottom: 20px;"/>
+    <ul id="results"></ul>
+
     <div class="controls" style="text-align: center; margin-bottom: 20px;">
         <input 
             type="text" 
@@ -91,6 +94,21 @@
 
     <script>
         let steamId = ''; // Variable to store the Steam ID
+
+        const searchInput = document.getElementById('gameSearch');
+        const searchResults = document.getElementById('results');
+
+        searchInput.addEventListener('input', async () => {
+        const q = searchInput.value;
+        if (!q) return (searchResults.innerHTML = '');
+
+        const res = await fetch(`http://localhost:3000/api/search?q=${q}`);
+        const games = await res.json();
+
+        searchResults.innerHTML = games
+            .map(game => `<li>${game.name}</li>`)
+            .join('');
+        });
         
         // Call loadSteamId on page load
         loadSteamId();
@@ -141,7 +159,7 @@
                 }
             } catch (error) {
                 console.error('Error syncing library:', error);
-                // alert('An error occurred while syncing the library.');
+                alert('An error occurred while syncing the library.');
             } finally {
                 loadingSpinner.style.display = 'none'; // Hide the spinner
             }

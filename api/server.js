@@ -3,6 +3,8 @@ const cors = require('cors');
 const fs = require('fs');
 require('dotenv').config();
 const path = require('path');
+const axios = require('axios');
+
 const { pipeline } = require('stream');
 const { promisify } = require('util');
 const streamPipeline = promisify(pipeline);
@@ -12,6 +14,9 @@ const port = 3000;
 
 const apiKey = process.env.STEAM_API_KEY; // Load API key from .env file
 const steamGridDbApiKey = process.env.STEAMGRIDDB_API_KEY;
+const IGDB_CLIENT_ID = 'your_client_id';
+const IGDB_ACCESS_TOKEN = 'your_access_token'; // from step 2
+
 const steamId = '76561198213788939'; // Replace with the user's Steam ID
 const outputFilePath = './api/userLibrary.json'; // Path to the JSON file
 
@@ -93,8 +98,10 @@ async function syncLibraryHelper(steamId) {
                     imageDownloaded = await downloadImage(steamGridDbImageUrl, localImagePath);
 
                     if (!imageDownloaded) {
-                        console.log(`Failed to download fallback image for App ID ${appId}`);
-                        continue; // Skip this game if both downloads fail
+                        console.error(`Failed to download image for App ID ${appId}. Using placeholder image.`);
+                        // Use a placeholder image if both downloads fail
+                        game.imageUrl = 'https://placehold.co/600x900';
+                        continue; // Skip to the next game
                     }
                 }
 
@@ -195,3 +202,25 @@ app.get('/api/getSteamGridDbImage', async (req, res) => {
         res.status(500).send('Error fetching SteamGridDB image');
     }
 });
+
+app.get('/api/search', async (req, res) => {
+    const query = req.query.q;
+  
+    try {
+      const response = await axios.post(
+        'https://api.igdb.com/v4/games',
+        `search "${query}"; fields name,cover.url; limit 10;`,
+        {
+          headers: {
+            'Client-ID': IGDB_CLIENT_ID,
+            'Authorization': `Bearer ${IGDB_ACCESS_TOKEN}`,
+            'Accept': 'application/json',
+          },
+        }
+      );
+  
+      res.json(response.data);
+    } catch (err) {
+      res.status(500).json({ error: 'Failed to fetch data from IGDB' });
+    }
+  });
